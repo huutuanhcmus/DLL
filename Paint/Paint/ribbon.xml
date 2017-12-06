@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Application xmlns='http://schemas.microsoft.com/windows/2009/Ribbon'>
+  <Application.Commands>
+    
+    <Command Name="cmdButtonNew"
+
+             Symbol="ID_CMD_LINE"
+
+             LabelTitle="Đường thẳng"
+
+             LabelDescription="Đường thẳng"
+
+             TooltipTitle="Đường thẳng"
+
+             TooltipDescription="Vẽ đường thẳng.">
+      <Command.LargeImages>
+        <Image>Images\line.png</Image>
+      </Command.LargeImages>
+    </Command>
+    
+    <Command Name="cmdButtonOpen"
+
+             Symbol="ID_CMD_RECTANGLE"
+
+             LabelTitle="Hình chữ nhật"
+
+             LabelDescription="Hình chữ nhật"
+
+             TooltipTitle="Hình chữ nhật"
+
+             TooltipDescription="Vẽ hình chữ nhật. Giữ phím Shift để vẽ hình vuông.">
+      <Command.LargeImages>
+        <Image>Images\Rectangle.png</Image>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="cmdButtonSave"
+
+             Symbol="ID_CMD_ELLIPSE"
+
+             LabelTitle="Hình ellipse"
+
+             LabelDescription="Hình ellipse"
+
+             TooltipTitle="Hình ellipse"
+
+             TooltipDescription="Vẽ hình ellipse. Giữ phím shift để vẽ hình tròn.">
+      <Command.LargeImages>
+        <Image>Images\Ellipse.png</Image>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="cmdButtonExit"
+
+             Symbol="ID_CMD_EXIT"
+
+             LabelTitle="Thoát"
+
+             LabelDescription="Thoát"
+
+             TooltipTitle="Thoát"
+
+             TooltipDescription="Thoát chương trình.">
+      <Command.LargeImages>
+        <Image>Images\Exit-sm.png</Image>
+      </Command.LargeImages>
+    </Command>
+
+   
+   
+
+    <Command Name="cmdTabMain"
+
+             Symbol="ID_CMD_TAB_MAIN"
+
+             LabelTitle="HOME">
+    </Command>
+
+    
+    <Command Name="cmdGroupFileActions"
+
+             Symbol="ID_CMD_GROUP_FILE"
+
+             LabelTitle="Vẽ hình">
+    </Command>
+
+    <Command Name="cmdGroupExit"
+
+             Symbol="ID_CMD_GROUP_EXIT"
+
+             LabelTitle="Hệ thống">
+    </Command>
+
+
+  </Application.Commands>
+
+  <Application.Views>
+    <Ribbon>
+      <Ribbon.Tabs>
+        
+        <Tab CommandName="cmdTabMain">
+          
+          <Group CommandName="cmdGroupFileActions" SizeDefinition="ThreeButtons">
+            <Button CommandName="cmdButtonNew" />
+            <Button CommandName="cmdButtonOpen" />
+            <Button CommandName="cmdButtonSave" />
+          </Group>
+        
+          <Group CommandName="cmdGroupExit" SizeDefinition="OneButton">
+            <Button CommandName="cmdButtonExit" />
+          </Group>
+          
+        </Tab>
+        
+        
+        
+      </Ribbon.Tabs>
+    </Ribbon>
+  </Application.Views>
+</Application>
+
+
+		

@@ -1,0 +1,112 @@
+// ******************************************************************************
+// * This is an automatically generated file containing the ribbon resource for *
+// * your application.                                                          *
+// ******************************************************************************
+
+#include ".\RibbonIDs.h"
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_LINE_LabelTitle_RESID L"\x0110\x01b0\x1eddng th\x1eb3ng" /* LabelTitle ID_CMD_LINE_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_LINE_LabelDescription_RESID L"\x0110\x01b0\x1eddng th\x1eb3ng" /* LabelDescription ID_CMD_LINE_LabelDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_LINE_TooltipTitle_RESID L"\x0110\x01b0\x1eddng th\x1eb3ng" /* TooltipTitle ID_CMD_LINE_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_LINE_TooltipDescription_RESID L"V\x1ebd \x0111\x01b0\x1eddng th\x1eb3ng." /* TooltipDescription ID_CMD_LINE_TooltipDescription_RESID: (null) */
+END
+
+ID_CMD_LINE_LargeImages_RESID    IMAGE    "Images\line.png" /* LargeImages ID_CMD_LINE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_RECTANGLE_LabelTitle_RESID L"H\x00ecnh ch\x1eef nh\x1eadt" /* LabelTitle ID_CMD_RECTANGLE_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_RECTANGLE_LabelDescription_RESID L"H\x00ecnh ch\x1eef nh\x1eadt" /* LabelDescription ID_CMD_RECTANGLE_LabelDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_RECTANGLE_TooltipTitle_RESID L"H\x00ecnh ch\x1eef nh\x1eadt" /* TooltipTitle ID_CMD_RECTANGLE_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_RECTANGLE_TooltipDescription_RESID L"V\x1ebd h\x00ecnh ch\x1eef nh\x1eadt. Gi\x1eef ph\x00edm Shift \x0111\x1ec3 v\x1ebd h\x00ecnh vu\x00f4ng." /* TooltipDescription ID_CMD_RECTANGLE_TooltipDescription_RESID: (null) */
+END
+
+ID_CMD_RECTANGLE_LargeImages_RESID    IMAGE    "Images\Rectangle.png" /* LargeImages ID_CMD_RECTANGLE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_ELLIPSE_LabelTitle_RESID L"H\x00ecnh ellipse" /* LabelTitle ID_CMD_ELLIPSE_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_ELLIPSE_LabelDescription_RESID L"H\x00ecnh ellipse" /* LabelDescription ID_CMD_ELLIPSE_LabelDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_ELLIPSE_TooltipTitle_RESID L"H\x00ecnh ellipse" /* TooltipTitle ID_CMD_ELLIPSE_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_ELLIPSE_TooltipDescription_RESID L"V\x1ebd h\x00ecnh ellipse. Gi\x1eef ph\x00edm shift \x0111\x1ec3 v\x1ebd h\x00ecnh tr\x00f2n." /* TooltipDescription ID_CMD_ELLIPSE_TooltipDescription_RESID: (null) */
+END
+
+ID_CMD_ELLIPSE_LargeImages_RESID    IMAGE    "Images\Ellipse.png" /* LargeImages ID_CMD_ELLIPSE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_EXIT_LabelTitle_RESID L"Tho\x00e1t" /* LabelTitle ID_CMD_EXIT_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_EXIT_LabelDescription_RESID L"Tho\x00e1t" /* LabelDescription ID_CMD_EXIT_LabelDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_EXIT_TooltipTitle_RESID L"Tho\x00e1t" /* TooltipTitle ID_CMD_EXIT_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_EXIT_TooltipDescription_RESID L"Tho\x00e1t ch\x01b0\x01a1ng tr\x00ecnh." /* TooltipDescription ID_CMD_EXIT_TooltipDescription_RESID: (null) */
+END
+
+ID_CMD_EXIT_LargeImages_RESID    IMAGE    "Images\Exit-sm.png" /* LargeImages ID_CMD_EXIT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_TAB_MAIN_LabelTitle_RESID L"HOME" /* LabelTitle ID_CMD_TAB_MAIN_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_GROUP_FILE_LabelTitle_RESID L"V\x1ebd h\x00ecnh" /* LabelTitle ID_CMD_GROUP_FILE_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_GROUP_EXIT_LabelTitle_RESID L"H\x1ec7 th\x1ed1ng" /* LabelTitle ID_CMD_GROUP_EXIT_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    InternalCmd2_LabelTitle_RESID L"Label:InternalCmd2" /* LabelTitle InternalCmd2_LabelTitle_RESID: (null) */
+END
+
+APPLICATION_RIBBON    UIFILE    "C:\\Users\\MAIHUUTUAN\\Desktop\\1512635_DLL\\Paint\\Paint\\\\Ribbon.bml"
