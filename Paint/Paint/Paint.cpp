@@ -3,7 +3,7 @@
 
 #include "stdafx.h"
 #include "Paint.h"
-#include"Shape.h"
+#include"DLLShape.h"
 #include<vector>
 #include <windowsx.h>
 #include <objidl.h>
@@ -14,7 +14,6 @@
 #pragma comment(lib, "Ole32.lib")
 #include "RibbonFramework.h"
 #include "RibbonIDs.h"
-using namespace MyShape;
 using namespace Gdiplus;
 //using namespace std;
 #define MAX_LOADSTRING 100
@@ -140,9 +139,9 @@ ULONG_PTR           gdiplusToken;
 POINT start, End;
 bool keepMouse = false;
 bool keepShift = false;
-std::vector<CShape*> shapes;
+std::vector<MyDLL::CShape*> shapes;
 int choose = 0;
-CShape *Shape;
+MyDLL::CShape *Shape;
 LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 {
     switch (message)
@@ -158,13 +157,13 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 			start.y = HIWORD(lParam);
 			switch (choose) {
 				case 1:
-					Shape = new CRectangle();
+					Shape = new MyDLL::CRectangle();
 					break;
 				case 2:
-					Shape = new CEllipse();
+					Shape = new MyDLL::CEllipse();
 					break;
 				default:
-					Shape = new CLine();
+					Shape = new MyDLL::CLine();
 					break;
 			}
 			break;

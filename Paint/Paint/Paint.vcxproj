@@ -101,6 +101,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>false</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\MAIHUUTUAN\Desktop\1512635_DLL\Paint\MyDLL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -151,7 +152,6 @@
     <ClInclude Include="Resource.h" />
     <ClInclude Include="RibbonFramework.h" />
     <ClInclude Include="RibbonIDs.h" />
-    <ClInclude Include="Shape.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
@@ -160,7 +160,6 @@
     <ClCompile Include="CommandHandler.cpp" />
     <ClCompile Include="Paint.cpp" />
     <ClCompile Include="RibbonFramework.cpp" />
-    <ClCompile Include="Shape.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -181,6 +180,11 @@
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">uicc.exe $(ProjectDir)\Ribbon.xml $(ProjectDir)\Ribbon.bml /header:$(ProjectDir)\RibbonIDs.h /res:$(ProjectDir)\Ribbon.rc</Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Ribbon.bml;RibbonIDs.h;Ribbon.rc;%(Outputs)</Outputs>
     </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyDLL\MyDLL.vcxproj">
+      <Project>{4a6fb0c9-5ced-4fa3-87c0-4c8a246f191a}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
